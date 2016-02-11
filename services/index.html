@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="UTF-8">
+        <title>Data Binding</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body ng-controller="dataBindingCtrl">
+        <div>
+            <p>Click on the button to have time !</p>
+            <button ng-click="getTime()">TIME !</button>
+            <p>{{time | date : 'dd/MM/yyyy H:mm:ss'}}</p>
+        </div>
+    </body>
+</html>

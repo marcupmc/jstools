@@ -1,0 +1,13 @@
+{
+  "name": "bower",
+  "description": "bower",
+  "main": "script.js",
+  "authors": [
+    "marc gregoire"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "dependencies": {}
+}
